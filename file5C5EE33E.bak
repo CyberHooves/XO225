@@ -1,0 +1,386 @@
+EESchema Schematic File Version 4
+LIBS:sub-xo-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C28
+U 1 1 5C5EE6AE
+P 2450 3400
+AR Path="/5C60CBAB/5C5EE6AE" Ref="C28"  Part="1" 
+AR Path="/5C5EE33F/5C5EE6AE" Ref="C21"  Part="1" 
+F 0 "C28" V 2400 3450 50  0000 L CNN
+F 1 "224" V 2500 3450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2488 3250 50  0001 C CNN
+F 3 "~" H 2450 3400 50  0001 C CNN
+	1    2450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5C5EE834
+P 2800 3150
+AR Path="/5C60CBAB/5C5EE834" Ref="R30"  Part="1" 
+AR Path="/5C5EE33F/5C5EE834" Ref="R20"  Part="1" 
+F 0 "R30" H 2870 3196 50  0000 L CNN
+F 1 "4K3" H 2870 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 3150 50  0001 C CNN
+F 3 "~" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5C5EE8CE
+P 3150 3400
+AR Path="/5C60CBAB/5C5EE8CE" Ref="C29"  Part="1" 
+AR Path="/5C5EE33F/5C5EE8CE" Ref="C22"  Part="1" 
+F 0 "C29" V 3100 3450 50  0000 L CNN
+F 1 "224" V 3200 3450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 3188 3250 50  0001 C CNN
+F 3 "~" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5C5EEA32
+P 3500 3650
+AR Path="/5C60CBAB/5C5EEA32" Ref="R31"  Part="1" 
+AR Path="/5C5EE33F/5C5EEA32" Ref="R21"  Part="1" 
+F 0 "R31" H 3570 3696 50  0000 L CNN
+F 1 "4K3" H 3570 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 3650 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5C5EEA8A
+P 3500 4050
+AR Path="/5C60CBAB/5C5EEA8A" Ref="R32"  Part="1" 
+AR Path="/5C5EE33F/5C5EEA8A" Ref="R22"  Part="1" 
+F 0 "R32" H 3570 4096 50  0000 L CNN
+F 1 "4K3" H 3570 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3400 3500 3400
+Wire Wire Line
+	3500 3500 3500 3400
+Connection ~ 3500 3400
+Wire Wire Line
+	3500 3400 3700 3400
+Wire Wire Line
+	3500 3900 3500 3800
+Wire Wire Line
+	2600 3400 2800 3400
+Wire Wire Line
+	2800 3300 2800 3400
+Connection ~ 2800 3400
+Wire Wire Line
+	2800 3400 3000 3400
+Wire Wire Line
+	2800 3000 2800 2900
+Wire Wire Line
+	2800 2900 3600 2900
+Wire Wire Line
+	4400 2900 4400 3300
+Wire Wire Line
+	4400 3300 4300 3300
+Wire Wire Line
+	3700 3200 3600 3200
+Wire Wire Line
+	3600 3200 3600 2900
+Connection ~ 3600 2900
+Wire Wire Line
+	3600 2900 4400 2900
+$Comp
+L Device:C C30
+U 1 1 5C5EEE8B
+P 4650 3400
+AR Path="/5C60CBAB/5C5EEE8B" Ref="C30"  Part="1" 
+AR Path="/5C5EE33F/5C5EEE8B" Ref="C23"  Part="1" 
+F 0 "C30" V 4600 3450 50  0000 L CNN
+F 1 "224" V 4700 3450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4688 3250 50  0001 C CNN
+F 3 "~" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5C5EEEE7
+P 5000 3150
+AR Path="/5C60CBAB/5C5EEEE7" Ref="R33"  Part="1" 
+AR Path="/5C5EE33F/5C5EEEE7" Ref="R23"  Part="1" 
+F 0 "R33" H 5070 3196 50  0000 L CNN
+F 1 "4K3" H 5070 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4930 3150 50  0001 C CNN
+F 3 "~" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5C5EEF5D
+P 5350 3400
+AR Path="/5C60CBAB/5C5EEF5D" Ref="C33"  Part="1" 
+AR Path="/5C5EE33F/5C5EEF5D" Ref="C26"  Part="1" 
+F 0 "C33" V 5300 3450 50  0000 L CNN
+F 1 "224" V 5400 3450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5388 3250 50  0001 C CNN
+F 3 "~" H 5350 3400 50  0001 C CNN
+	1    5350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5C5EEFC1
+P 5700 3650
+AR Path="/5C60CBAB/5C5EEFC1" Ref="R34"  Part="1" 
+AR Path="/5C5EE33F/5C5EEFC1" Ref="R24"  Part="1" 
+F 0 "R34" H 5770 3696 50  0000 L CNN
+F 1 "4K3" H 5770 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 3650 50  0001 C CNN
+F 3 "~" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5C5EF02B
+P 5700 4050
+AR Path="/5C60CBAB/5C5EF02B" Ref="R35"  Part="1" 
+AR Path="/5C5EE33F/5C5EF02B" Ref="R25"  Part="1" 
+F 0 "R35" H 5770 4096 50  0000 L CNN
+F 1 "4K3" H 5770 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 4050 50  0001 C CNN
+F 3 "~" H 5700 4050 50  0001 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3300 4400 3400
+Wire Wire Line
+	4400 3400 4500 3400
+Connection ~ 4400 3300
+Wire Wire Line
+	4800 3400 5000 3400
+Wire Wire Line
+	5000 3300 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 3400 5200 3400
+Wire Wire Line
+	5000 3000 5000 2900
+Wire Wire Line
+	5000 2900 5800 2900
+Wire Wire Line
+	6600 2900 6600 3300
+Wire Wire Line
+	6600 3300 6500 3300
+Wire Wire Line
+	5900 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 2900
+Connection ~ 5800 2900
+Wire Wire Line
+	5800 2900 6600 2900
+Wire Wire Line
+	5500 3400 5700 3400
+Wire Wire Line
+	5700 3500 5700 3400
+Connection ~ 5700 3400
+Wire Wire Line
+	5700 3400 5900 3400
+Wire Wire Line
+	5700 3900 5700 3800
+$Comp
+L power:GNDA #PWR0122
+U 1 1 5C5F388A
+P 3500 4300
+AR Path="/5C60CBAB/5C5F388A" Ref="#PWR0122"  Part="1" 
+AR Path="/5C5EE33F/5C5F388A" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0122" H 3500 4050 50  0001 C CNN
+F 1 "GNDA" H 3505 4127 50  0000 C CNN
+F 2 "" H 3500 4300 50  0001 C CNN
+F 3 "" H 3500 4300 50  0001 C CNN
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0123
+U 1 1 5C5F38CE
+P 5700 4300
+AR Path="/5C60CBAB/5C5F38CE" Ref="#PWR0123"  Part="1" 
+AR Path="/5C5EE33F/5C5F38CE" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0123" H 5700 4050 50  0001 C CNN
+F 1 "GNDA" H 5705 4127 50  0000 C CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4300 3500 4200
+Wire Wire Line
+	5700 4300 5700 4200
+Wire Wire Line
+	6600 3300 6900 3300
+Connection ~ 6600 3300
+$Comp
+L Device:C C31
+U 1 1 5C5FCC30
+P 4700 4850
+AR Path="/5C60CBAB/5C5FCC30" Ref="C31"  Part="1" 
+AR Path="/5C5EE33F/5C5FCC30" Ref="C24"  Part="1" 
+F 0 "C31" H 4750 4950 50  0000 L CNN
+F 1 "104" H 4750 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 4700 50  0001 C CNN
+F 3 "~" H 4700 4850 50  0001 C CNN
+	1    4700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 5C5FCD89
+P 4700 5350
+AR Path="/5C60CBAB/5C5FCD89" Ref="C32"  Part="1" 
+AR Path="/5C5EE33F/5C5FCD89" Ref="C25"  Part="1" 
+F 0 "C32" H 4750 5450 50  0000 L CNN
+F 1 "104" H 4750 5250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 5200 50  0001 C CNN
+F 3 "~" H 4700 5350 50  0001 C CNN
+	1    4700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4800 4200 4600
+Wire Wire Line
+	4200 4600 4700 4600
+Wire Wire Line
+	4700 4600 4700 4700
+Wire Wire Line
+	4200 5400 4200 5600
+Wire Wire Line
+	4200 5600 4700 5600
+Wire Wire Line
+	4700 5600 4700 5500
+Wire Wire Line
+	4700 5000 4700 5100
+$Comp
+L power:GNDA #PWR0125
+U 1 1 5C5FFAC3
+P 5100 5500
+AR Path="/5C60CBAB/5C5FFAC3" Ref="#PWR0125"  Part="1" 
+AR Path="/5C5EE33F/5C5FFAC3" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0125" H 5100 5250 50  0001 C CNN
+F 1 "GNDA" H 5105 5327 50  0000 C CNN
+F 2 "" H 5100 5500 50  0001 C CNN
+F 3 "" H 5100 5500 50  0001 C CNN
+	1    5100 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5100 5100 5100
+Wire Wire Line
+	5100 5100 5100 5500
+Connection ~ 4700 5100
+Wire Wire Line
+	4700 5100 4700 5200
+$Comp
+L HR-parts:+15V #PWR0126
+U 1 1 5C603105
+P 4700 4500
+AR Path="/5C60CBAB/5C603105" Ref="#PWR0126"  Part="1" 
+AR Path="/5C5EE33F/5C603105" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0126" H 4700 4450 20  0001 C CNN
+F 1 "+15V" H 4700 4674 50  0000 C CNN
+F 2 "" H 4700 4500 60  0000 C CNN
+F 3 "" H 4700 4500 60  0000 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HR-parts:-15V #PWR0127
+U 1 1 5C60315A
+P 4700 5700
+AR Path="/5C60CBAB/5C60315A" Ref="#PWR0127"  Part="1" 
+AR Path="/5C5EE33F/5C60315A" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0127" H 4700 5650 20  0001 C CNN
+F 1 "-15V" H 4700 5873 50  0000 C CNN
+F 2 "" H 4700 5700 60  0000 C CNN
+F 3 "" H 4700 5700 60  0000 C CNN
+	1    4700 5700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 5700 4700 5600
+Connection ~ 4700 5600
+Wire Wire Line
+	4700 4500 4700 4600
+Connection ~ 4700 4600
+Text HLabel 2100 3400 0    50   Input ~ 0
+IN
+Wire Wire Line
+	2100 3400 2300 3400
+Text Notes 2000 4100 0    50   ~ 0
+120Hz: R=4K3, C=220nF
+Text HLabel 6900 3300 2    50   Output ~ 0
+OUT
+$Comp
+L Amplifier_Operational:TL072 U4
+U 1 1 5C7A7C45
+P 4000 3300
+AR Path="/5C5EE33F/5C7A7C45" Ref="U4"  Part="1" 
+AR Path="/5C60CBAB/5C7A7C45" Ref="U5"  Part="1" 
+F 0 "U5" H 4000 3150 50  0000 L CNN
+F 1 "TL072" H 4000 3450 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4000 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 5C7A7D31
+P 6200 3300
+AR Path="/5C5EE33F/5C7A7D31" Ref="U4"  Part="2" 
+AR Path="/5C60CBAB/5C7A7D31" Ref="U5"  Part="2" 
+F 0 "U5" H 6200 3150 50  0000 L CNN
+F 1 "TL072" H 6200 3450 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6200 3300 50  0001 C CNN
+	2    6200 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 5C7A7E14
+P 4300 5100
+AR Path="/5C5EE33F/5C7A7E14" Ref="U4"  Part="3" 
+AR Path="/5C60CBAB/5C7A7E14" Ref="U5"  Part="3" 
+F 0 "U5" H 4258 5146 50  0000 L CNN
+F 1 "TL072" H 4258 5055 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4300 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4300 5100 50  0001 C CNN
+	3    4300 5100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,315 @@
+EESchema Schematic File Version 4
+LIBS:sub-xo-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sub-xo-rescue:RAC10-15DK277-HR-parts U10
+U 1 1 5C65B9C2
+P 3200 2600
+AR Path="/5C65B9C2" Ref="U10"  Part="1" 
+AR Path="/5C5B739B/5C65B9C2" Ref="U10"  Part="1" 
+F 0 "U10" H 3250 2925 50  0000 C CNN
+F 1 "RAC10-15DK277" H 3250 2834 50  0000 C CNN
+F 2 "HR-parts:RECOM-RAC10" H 3200 2600 50  0001 C CNN
+F 3 "" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5C65BA20
+P 2400 2550
+F 0 "J6" H 2320 2767 50  0000 C CNN
+F 1 "Conn_01x02" H 2320 2676 50  0000 C CNN
+F 2 "HR-parts:CON-MOLEX-SPOX-5281-2P-V" H 2400 2550 50  0001 C CNN
+F 3 "~" H 2400 2550 50  0001 C CNN
+	1    2400 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5C65BABA
+P 4750 2100
+F 0 "L1" V 4850 2100 50  0000 C CNN
+F 1 "22" V 4700 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_HCI-5040" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C55
+U 1 1 5C65BBA2
+P 4500 2350
+F 0 "C55" H 4550 2450 50  0000 L CNN
+F 1 "105" H 4550 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 2200 50  0001 C CNN
+F 3 "~" H 4500 2350 50  0001 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5C65BC27
+P 3500 3100
+F 0 "J8" H 3420 2775 50  0000 C CNN
+F 1 "Conn_01x03" H 3500 3350 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3500 3100 50  0001 C CNN
+F 3 "~" H 3500 3100 50  0001 C CNN
+	1    3500 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C56
+U 1 1 5C65BE64
+P 4500 2850
+F 0 "C56" H 4550 2950 50  0000 L CNN
+F 1 "105" H 4550 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 2700 50  0001 C CNN
+F 3 "~" H 4500 2850 50  0001 C CNN
+	1    4500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L2
+U 1 1 5C65BEF9
+P 4750 3100
+F 0 "L2" V 4850 3100 50  0000 C CNN
+F 1 "22" V 4700 3100 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_HCI-5040" H 4750 3100 50  0001 C CNN
+F 3 "~" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C57
+U 1 1 5C65BF8B
+P 5000 2350
+F 0 "C57" H 5050 2450 50  0000 L CNN
+F 1 "335" H 5050 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5038 2200 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C60
+U 1 1 5C65C20E
+P 5400 2350
+F 0 "C60" H 5450 2450 50  0000 L CNN
+F 1 "335" H 5450 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5438 2200 50  0001 C CNN
+F 3 "~" H 5400 2350 50  0001 C CNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C62
+U 1 1 5C65C267
+P 5800 2350
+F 0 "C62" H 5850 2450 50  0000 L CNN
+F 1 "335" H 5850 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5838 2200 50  0001 C CNN
+F 3 "~" H 5800 2350 50  0001 C CNN
+	1    5800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C58
+U 1 1 5C65C29F
+P 5000 2850
+F 0 "C58" H 5050 2950 50  0000 L CNN
+F 1 "335" H 5050 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5038 2700 50  0001 C CNN
+F 3 "~" H 5000 2850 50  0001 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C61
+U 1 1 5C65C2E1
+P 5400 2850
+F 0 "C61" H 5450 2950 50  0000 L CNN
+F 1 "335" H 5450 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5438 2700 50  0001 C CNN
+F 3 "~" H 5400 2850 50  0001 C CNN
+	1    5400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C63
+U 1 1 5C65C315
+P 5800 2850
+F 0 "C63" H 5850 2950 50  0000 L CNN
+F 1 "335" H 5850 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5838 2700 50  0001 C CNN
+F 3 "~" H 5800 2850 50  0001 C CNN
+	1    5800 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2200 4500 2100
+Wire Wire Line
+	4500 2100 4600 2100
+Wire Wire Line
+	4900 2100 5000 2100
+Wire Wire Line
+	5000 2100 5000 2200
+Wire Wire Line
+	5000 2100 5400 2100
+Wire Wire Line
+	5400 2100 5400 2200
+Connection ~ 5000 2100
+Wire Wire Line
+	5400 2100 5800 2100
+Wire Wire Line
+	5800 2100 5800 2200
+Connection ~ 5400 2100
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4500 3100 4600 3100
+Wire Wire Line
+	4900 3100 5000 3100
+Wire Wire Line
+	5000 3100 5000 3000
+Wire Wire Line
+	5000 3100 5400 3100
+Wire Wire Line
+	5400 3100 5400 3000
+Connection ~ 5000 3100
+Wire Wire Line
+	5400 3100 5800 3100
+Wire Wire Line
+	5800 3100 5800 3000
+Connection ~ 5400 3100
+Wire Wire Line
+	4500 2500 4500 2600
+Wire Wire Line
+	5000 2500 5000 2600
+Wire Wire Line
+	5400 2500 5400 2600
+Wire Wire Line
+	5800 2500 5800 2600
+Wire Wire Line
+	5800 2600 5400 2600
+Connection ~ 5800 2600
+Wire Wire Line
+	5800 2600 5800 2700
+Connection ~ 5400 2600
+Wire Wire Line
+	5400 2600 5400 2700
+Wire Wire Line
+	5400 2600 5000 2600
+Connection ~ 5000 2600
+Wire Wire Line
+	5000 2600 5000 2700
+Wire Wire Line
+	5000 2600 4500 2600
+Connection ~ 4500 2600
+Wire Wire Line
+	4500 2600 4500 2700
+Wire Wire Line
+	4200 2500 4200 2100
+Wire Wire Line
+	4200 2100 4500 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	4200 2700 4200 3100
+Wire Wire Line
+	4200 3100 4500 3100
+Connection ~ 4500 3100
+$Comp
+L HR-parts:+15V #PWR026
+U 1 1 5C65E80B
+P 5800 2000
+F 0 "#PWR026" H 5800 1950 20  0001 C CNN
+F 1 "+15V" H 5800 2174 50  0000 C CNN
+F 2 "" H 5800 2000 60  0000 C CNN
+F 3 "" H 5800 2000 60  0000 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HR-parts:-15V #PWR027
+U 1 1 5C65E893
+P 5800 3200
+F 0 "#PWR027" H 5800 3150 20  0001 C CNN
+F 1 "-15V" H 5800 3373 50  0000 C CNN
+F 2 "" H 5800 3200 60  0000 C CNN
+F 3 "" H 5800 3200 60  0000 C CNN
+	1    5800 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2100 5800 2000
+Connection ~ 5800 2100
+Wire Wire Line
+	5800 3100 5800 3200
+Connection ~ 5800 3100
+Wire Wire Line
+	2600 2550 2700 2550
+Wire Wire Line
+	2700 2550 2700 2500
+Wire Wire Line
+	2700 2500 2800 2500
+Wire Wire Line
+	2600 2650 2700 2650
+Wire Wire Line
+	2700 2650 2700 2700
+Wire Wire Line
+	2700 2700 2800 2700
+Wire Wire Line
+	3700 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 2500
+Wire Wire Line
+	3800 2500 3700 2500
+Wire Wire Line
+	3700 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 2600
+Wire Wire Line
+	3900 2600 3700 2600
+Wire Wire Line
+	3700 3200 4000 3200
+Wire Wire Line
+	4000 3200 4000 2700
+Wire Wire Line
+	4000 2700 3700 2700
+Wire Wire Line
+	4000 2700 4200 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	3900 2600 4500 2600
+Connection ~ 3900 2600
+Wire Wire Line
+	3800 2500 4200 2500
+Connection ~ 3800 2500
+$Comp
+L power:GNDA #PWR025
+U 1 1 5C669110
+P 3900 3300
+F 0 "#PWR025" H 3900 3050 50  0001 C CNN
+F 1 "GNDA" H 3905 3127 50  0000 C CNN
+F 2 "" H 3900 3300 50  0001 C CNN
+F 3 "" H 3900 3300 50  0001 C CNN
+	1    3900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3100 3900 3300
+Connection ~ 3900 3100
+$EndSCHEMATC

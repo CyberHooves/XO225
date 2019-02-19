@@ -1,0 +1,551 @@
+EESchema Schematic File Version 4
+LIBS:sub-xo-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4700 3900 900  400 
+U 5C59543A
+F0 "Sub XO" 50
+F1 "file5C595439.sch" 50
+F2 "IN" I L 4700 4100 50 
+F3 "OUT+" O R 5600 4000 50 
+F4 "OUT-" O R 5600 4200 50 
+$EndSheet
+$Comp
+L Device:R R3
+U 1 1 5C5EB288
+P 3650 3500
+F 0 "R3" V 3550 3500 50  0000 C CNN
+F 1 "10K" V 3650 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3580 3500 50  0001 C CNN
+F 3 "~" H 3650 3500 50  0001 C CNN
+	1    3650 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 4100 3900 4100
+Wire Wire Line
+	3900 3500 3800 3500
+Wire Wire Line
+	3500 3500 3200 3500
+Wire Wire Line
+	3100 4000 3200 4000
+$Comp
+L Device:R R1
+U 1 1 5C5EB3B2
+P 2850 3500
+F 0 "R1" V 2750 3500 50  0000 C CNN
+F 1 "10K" V 2850 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 3500 50  0001 C CNN
+F 3 "~" H 2850 3500 50  0001 C CNN
+	1    2850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C5EB404
+P 2850 4000
+F 0 "R2" V 2750 4000 50  0000 C CNN
+F 1 "10K" V 2850 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 4000 50  0001 C CNN
+F 3 "~" H 2850 4000 50  0001 C CNN
+	1    2850 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 4000 3100 4000
+Connection ~ 3100 4000
+$Comp
+L power:GNDA #PWR0101
+U 1 1 5C5EB522
+P 3100 4400
+F 0 "#PWR0101" H 3100 4150 50  0001 C CNN
+F 1 "GNDA" H 3105 4227 50  0000 C CNN
+F 2 "" H 3100 4400 50  0001 C CNN
+F 3 "" H 3100 4400 50  0001 C CNN
+	1    3100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4400 3100 4200
+Wire Wire Line
+	3100 4200 3200 4200
+$Comp
+L HR-parts:+15V #PWR0102
+U 1 1 5C5EB5D1
+P 1600 6000
+F 0 "#PWR0102" H 1600 5950 20  0001 C CNN
+F 1 "+15V" H 1600 6173 50  0000 C CNN
+F 2 "" H 1600 6000 60  0000 C CNN
+F 3 "" H 1600 6000 60  0000 C CNN
+	1    1600 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L HR-parts:-15V #PWR0103
+U 1 1 5C5EB602
+P 1600 4600
+F 0 "#PWR0103" H 1600 4550 20  0001 C CNN
+F 1 "-15V" H 1600 4774 50  0000 C CNN
+F 2 "" H 1600 4600 60  0000 C CNN
+F 3 "" H 1600 4600 60  0000 C CNN
+	1    1600 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4100
+$Sheet
+S 3400 1700 900  400 
+U 5C5EE33F
+F0 "CH1 highpass" 50
+F1 "file5C5EE33E.sch" 50
+F2 "IN" I L 3400 1900 50 
+F3 "OUT" O R 4300 1900 50 
+$EndSheet
+$Sheet
+S 3400 2400 900  400 
+U 5C60CBAB
+F0 "CH2 highpass" 50
+F1 "file5C5EE33E.sch" 50
+F2 "IN" I L 3400 2600 50 
+F3 "OUT" O R 4300 2600 50 
+$EndSheet
+$Sheet
+S 1400 1700 900  400 
+U 5C60CF3A
+F0 "CH1 receiver" 50
+F1 "file5C60CF39.sch" 50
+F2 "IN+" I L 1400 1800 50 
+F3 "IN-" I L 1400 2000 50 
+F4 "OUT" O R 2300 1900 50 
+$EndSheet
+$Sheet
+S 1400 2400 900  400 
+U 5C642CA4
+F0 "CH2 receiver" 50
+F1 "file5C60CF39.sch" 50
+F2 "IN+" I L 1400 2500 50 
+F3 "IN-" I L 1400 2700 50 
+F4 "OUT" O R 2300 2600 50 
+$EndSheet
+Text Label 8700 3500 2    50   ~ 0
+CH1_IN+
+Text Label 8700 3600 2    50   ~ 0
+CH1_IN-
+Text Label 8700 3800 2    50   ~ 0
+CH2_IN+
+Text Label 8700 3700 2    50   ~ 0
+CH2_IN-
+Text Label 8700 2200 2    50   ~ 0
+CH1_HI+
+Text Label 8700 2300 2    50   ~ 0
+CH1_HI-
+Text Label 8700 2000 2    50   ~ 0
+CH1_LO+
+Text Label 8700 2100 2    50   ~ 0
+CH1_LO-
+Text Label 8700 2400 2    50   ~ 0
+SUB_OUT+
+Text Label 8700 2500 2    50   ~ 0
+SUB_OUT-
+Connection ~ 9300 2600
+Wire Wire Line
+	9300 2600 9300 2700
+Connection ~ 9300 2500
+Wire Wire Line
+	9300 2500 9300 2600
+Connection ~ 9300 2400
+Wire Wire Line
+	9300 2400 9300 2500
+Connection ~ 9300 2300
+Wire Wire Line
+	9300 2300 9300 2400
+Wire Wire Line
+	9300 2200 9300 2300
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5C648C0C
+P 9300 3000
+F 0 "#PWR0106" H 9300 2750 50  0001 C CNN
+F 1 "GNDA" H 9305 2827 50  0000 C CNN
+F 2 "" H 9300 3000 50  0001 C CNN
+F 3 "" H 9300 3000 50  0001 C CNN
+	1    9300 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 2700
+Text Notes 9900 6150 2    50   ~ 0
+Parallel\nParallel inverted\nBridge
+Text Label 1200 1800 2    50   ~ 0
+CH1_IN+
+Text Label 1200 2000 2    50   ~ 0
+CH1_IN-
+Text Label 1200 2500 2    50   ~ 0
+CH2_IN+
+Text Label 1200 2700 2    50   ~ 0
+CH2_IN-
+Wire Wire Line
+	1200 1800 1400 1800
+Wire Wire Line
+	1200 2000 1400 2000
+Wire Wire Line
+	1200 2500 1400 2500
+Wire Wire Line
+	1200 2700 1400 2700
+Wire Wire Line
+	2300 1900 2600 1900
+$Comp
+L Device:C C3
+U 1 1 5C6561B3
+P 3450 3200
+F 0 "C3" V 3400 3300 50  0000 L CNN
+F 1 "151" V 3500 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 3050 50  0001 C CNN
+F 3 "~" H 3450 3200 50  0001 C CNN
+	1    3450 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3500 3200 3200
+Wire Wire Line
+	3200 3200 3300 3200
+Connection ~ 3200 3500
+Wire Wire Line
+	3600 3200 3900 3200
+Wire Wire Line
+	3900 3200 3900 3500
+Text Label 6100 4000 2    50   ~ 0
+SUB_OUT+
+Text Label 6100 4200 2    50   ~ 0
+SUB_OUT-
+$Sheet
+S 8000 5500 1000 700 
+U 5C5B739B
+F0 "Local PSU" 50
+F1 "file5C5B739A.sch" 50
+$EndSheet
+Wire Wire Line
+	2700 3500 2600 3500
+Wire Wire Line
+	2600 3500 2600 1900
+Connection ~ 2600 1900
+Wire Wire Line
+	2600 1900 3400 1900
+Wire Wire Line
+	2500 4000 2700 4000
+$Comp
+L Device:C C1
+U 1 1 5C63E104
+P 1600 5050
+F 0 "C1" H 1650 5150 50  0000 L CNN
+F 1 "104" H 1650 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 4900 50  0001 C CNN
+F 3 "~" H 1600 5050 50  0001 C CNN
+	1    1600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5C63E1C2
+P 1600 5550
+F 0 "C2" H 1650 5650 50  0000 L CNN
+F 1 "104" H 1650 5450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 5400 50  0001 C CNN
+F 3 "~" H 1600 5550 50  0001 C CNN
+	1    1600 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5200 1600 5300
+$Comp
+L power:GNDA #PWR0107
+U 1 1 5C64A6A1
+P 1300 5600
+F 0 "#PWR0107" H 1300 5350 50  0001 C CNN
+F 1 "GNDA" H 1305 5427 50  0000 C CNN
+F 2 "" H 1300 5600 50  0001 C CNN
+F 3 "" H 1300 5600 50  0001 C CNN
+	1    1300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5600 1300 5300
+Wire Wire Line
+	1300 5300 1600 5300
+Connection ~ 1600 5300
+Wire Wire Line
+	1600 5300 1600 5400
+$Sheet
+S 4700 2350 900  500 
+U 5C7AA84A
+F0 "CH2 XO" 50
+F1 "file5C7AA849.sch" 50
+F2 "IN" I L 4700 2600 50 
+F3 "OUT_HI-" O R 5600 2550 50 
+F4 "OUT_HI+" O R 5600 2450 50 
+F5 "OUT_LO-" O R 5600 2750 50 
+F6 "OUT_LO+" O R 5600 2650 50 
+$EndSheet
+Wire Wire Line
+	4300 2600 4700 2600
+$Sheet
+S 4700 1650 900  500 
+U 5C89BCAE
+F0 "CH1 XO" 50
+F1 "file5C7AA849.sch" 50
+F2 "IN" I L 4700 1900 50 
+F3 "OUT_HI-" O R 5600 1850 50 
+F4 "OUT_HI+" O R 5600 1750 50 
+F5 "OUT_LO-" O R 5600 2050 50 
+F6 "OUT_LO+" O R 5600 1950 50 
+$EndSheet
+Wire Wire Line
+	4300 1900 4700 1900
+Text Label 6100 1750 2    50   ~ 0
+CH1_HI+
+Text Label 6100 1850 2    50   ~ 0
+CH1_HI-
+Text Label 6100 1950 2    50   ~ 0
+CH1_LO+
+Text Label 6100 2050 2    50   ~ 0
+CH1_LO-
+Text Label 6100 2450 2    50   ~ 0
+CH2_HI+
+Text Label 6100 2550 2    50   ~ 0
+CH2_HI-
+Text Label 6100 2650 2    50   ~ 0
+CH2_LO+
+Text Label 6100 2750 2    50   ~ 0
+CH2_LO-
+Wire Wire Line
+	5600 1750 6100 1750
+Wire Wire Line
+	5600 1850 6100 1850
+Wire Wire Line
+	5600 1950 6100 1950
+Wire Wire Line
+	5600 2050 6100 2050
+Wire Wire Line
+	5600 2450 6100 2450
+Wire Wire Line
+	5600 2550 6100 2550
+Wire Wire Line
+	5600 2650 6100 2650
+Wire Wire Line
+	5600 2750 6100 2750
+Wire Wire Line
+	5600 4000 6100 4000
+Wire Wire Line
+	5600 4200 6100 4200
+Text Label 8700 2900 2    50   ~ 0
+CH2_HI+
+Text Label 8700 2800 2    50   ~ 0
+CH2_HI-
+Text Label 8700 2600 2    50   ~ 0
+CH2_LO+
+Text Label 8700 2700 2    50   ~ 0
+CH2_LO-
+Wire Wire Line
+	9300 2700 9300 2800
+Connection ~ 9300 2800
+Wire Wire Line
+	9300 2800 9300 2900
+Connection ~ 9300 2900
+$Comp
+L Amplifier_Operational:TL071 U1
+U 1 1 5C91EF23
+P 3500 4100
+F 0 "U1" H 3650 4200 50  0000 L CNN
+F 1 "TL071" H 3500 4300 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3650 4250 50  0001 C CNN
+	1    3500 4100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1600 4600 1600 4900
+Wire Wire Line
+	1600 5700 1600 6000
+NoConn ~ 3500 3800
+NoConn ~ 3600 3800
+$Comp
+L HR-parts:-15V #PWR019
+U 1 1 5C926BF1
+P 3400 3800
+F 0 "#PWR019" H 3400 3750 20  0001 C CNN
+F 1 "-15V" H 3400 3974 50  0000 C CNN
+F 2 "" H 3400 3800 60  0000 C CNN
+F 3 "" H 3400 3800 60  0000 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HR-parts:+15V #PWR020
+U 1 1 5C926C28
+P 3400 4400
+F 0 "#PWR020" H 3400 4350 20  0001 C CNN
+F 1 "+15V" H 3400 4573 50  0000 C CNN
+F 2 "" H 3400 4400 60  0000 C CNN
+F 3 "" H 3400 4400 60  0000 C CNN
+	1    3400 4400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3500 3100 3500
+Wire Wire Line
+	2300 2600 2500 2600
+Wire Wire Line
+	3100 3500 3100 4000
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3500 3200 3500
+Wire Wire Line
+	2500 2600 2500 4000
+Connection ~ 2500 2600
+Wire Wire Line
+	2500 2600 3400 2600
+Wire Wire Line
+	3900 3500 3900 4100
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 4100 4700 4100
+Wire Wire Line
+	9200 3500 9300 3500
+Wire Wire Line
+	9300 3500 9300 3600
+Wire Wire Line
+	9200 3800 9300 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	9200 3700 9300 3700
+Connection ~ 9300 3700
+Wire Wire Line
+	9300 3700 9300 3800
+Wire Wire Line
+	9200 3600 9300 3600
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 9300 3700
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5C95C57F
+P 9300 3900
+F 0 "#PWR0105" H 9300 3650 50  0001 C CNN
+F 1 "GNDA" H 9305 3727 50  0000 C CNN
+F 2 "" H 9300 3900 50  0001 C CNN
+F 3 "" H 9300 3900 50  0001 C CNN
+	1    9300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2900 9300 3000
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C965A16
+P 6600 4800
+F 0 "J2" H 6679 4842 50  0000 L CNN
+F 1 "Screwhole" H 6679 4751 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6600 4800 50  0001 C CNN
+F 3 "~" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C965B32
+P 6600 5000
+F 0 "J3" H 6679 5042 50  0000 L CNN
+F 1 "Screwhole" H 6679 4951 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6600 5000 50  0001 C CNN
+F 3 "~" H 6600 5000 50  0001 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C965BC0
+P 6600 5200
+F 0 "J4" H 6679 5242 50  0000 L CNN
+F 1 "Screwhole" H 6679 5151 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6600 5200 50  0001 C CNN
+F 3 "~" H 6600 5200 50  0001 C CNN
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5C965BF4
+P 6600 5400
+F 0 "J7" H 6679 5442 50  0000 L CNN
+F 1 "Screwhole" H 6679 5351 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6600 5400 50  0001 C CNN
+F 3 "~" H 6600 5400 50  0001 C CNN
+	1    6600 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6400 4800
+NoConn ~ 6400 5000
+NoConn ~ 6400 5200
+NoConn ~ 6400 5400
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J1
+U 1 1 5C96CF30
+P 8900 2400
+F 0 "J1" H 8950 3017 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 8950 2926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 8900 2400 50  0001 C CNN
+F 3 "~" H 8900 2400 50  0001 C CNN
+	1    8900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2000 9300 2100
+Connection ~ 9300 2200
+Connection ~ 9300 2100
+Wire Wire Line
+	9300 2100 9300 2200
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 5C974935
+P 9000 3600
+F 0 "J5" H 9050 3917 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 9050 3826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9000 3600 50  0001 C CNN
+F 3 "~" H 9000 3600 50  0001 C CNN
+	1    9000 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3800 9300 3900
+Wire Wire Line
+	9200 2900 9300 2900
+Wire Wire Line
+	9200 2800 9300 2800
+Wire Wire Line
+	9200 2700 9300 2700
+Wire Wire Line
+	9200 2600 9300 2600
+Wire Wire Line
+	9200 2500 9300 2500
+Wire Wire Line
+	9200 2400 9300 2400
+Wire Wire Line
+	9200 2300 9300 2300
+Wire Wire Line
+	9200 2200 9300 2200
+Wire Wire Line
+	9200 2100 9300 2100
+Wire Wire Line
+	9200 2000 9300 2000
+$EndSCHEMATC
